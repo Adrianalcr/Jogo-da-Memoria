@@ -20,7 +20,11 @@ body {
 
 a{
   color: #fff;
-  list-style: none;
+  list-style-type: none;
+}
+
+a:hover{
+  color: #f30698;
   list-style-type: none;
 }
 
