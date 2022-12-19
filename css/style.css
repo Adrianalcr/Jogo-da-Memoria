@@ -8,7 +8,7 @@
 }
 
 body {
-  box-size: box;
+  box-sizing: border-box;
   height: 30px;
   width: 100%;
   display: flex;
@@ -30,6 +30,7 @@ body {
   background: #fff;
   padding-top: 30px;
   padding-bottom: 30px;
+  align-items: center;
 }
 /******Section*****/
 .container-fluid {
@@ -70,7 +71,7 @@ body {
   border-radius: #333 8px;
   background: #341f44;
   backface-visibility: hidden;
-  list-sttyle: none;
+  list-style: none;
 }
 
 .memory-card:active {
