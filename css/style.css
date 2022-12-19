@@ -14,13 +14,14 @@ body {
   width: 100%;
   display: flex;
   text-align: center;
-  background: #f3067d;
   font-family: "Muli", sans-serif;
-  color: #000;
+  color: #fff;
+}
+.a{
+  list-style: none;
 }
 
 .game-section {
-  background: #fff;
   width: 100%;
   height: 100vh;
 }
@@ -35,8 +36,12 @@ body {
 }
 /******Section*****/
 .container-fluid {
+  background: deepskyblue;
   padding: 0;
-  display: box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   width: 100%;
 }
 
@@ -57,7 +62,7 @@ body {
   height: calc(33.333% - 10px);
   margin: 5px;
   position: relative;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 4px 2px rgb(0 0 0 / 30%);
   transform: scale(1);
   transform-style: preserve-3d;
   transition: transform 0.5s;
@@ -69,7 +74,7 @@ body {
   height: 100%;
   position: absolute;
   display: flex;
-  border-radius: #333 8px;
+  border: #333 8px;
   background: #341f44;
   backface-visibility: hidden;
   list-style: none;
